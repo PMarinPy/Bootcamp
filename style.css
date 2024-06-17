@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+}
+.header {
+    background-color: blue;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.header h1 { 
+    font-size: 3vw;
+    color: rgb(147, 141, 230);
+}
+.header:hover {
+    background-color: rgb(68, 92, 172);
+}
+.header:hover h1 {
+    color: rgb(210, 209, 241);
+}
+.calculator {
+    margin-top: 10vh;
+    text-align: center;
+}
+.options {
+    margin-top: 20px;
+}
+button {  
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    border-color: aqua;
+}
+button:hover {
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color:  rgb(121, 119, 185);
+    border-radius: 15px;
+    color: white;
+    border-color: rgb(156, 168, 238);
+}
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(170, 170, 221);
+    background-color: blue;
+    border-radius: 15px;
+    border-color: blueviolet;
+}
+.inputcont {
+    text-align: center;
+    margin-top: 20px;
+  }
+.inputcont input{
+    width: 10%;
+    height: 15px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 3px solid #d3b9e7;
+    border-radius: 5px;
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
+    
+}
+::-webkit-input-placeholder {
+    color: rgb(228, 191, 231);
+}
