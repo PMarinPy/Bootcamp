@@ -32,7 +32,7 @@ function calculator(){
         let num1 = parseFloat(num1Input.value);
         let num2 = parseFloat(num2Input.value);
         if (num2 === 0) {
-          resultParagraph.textContent = 'Error: cannot divide by zero!';
+          resultParagraph.textContent = 'mamahuevo';
         } else {
             let result = num1 / num2;
           resultParagraph.textContent = `Result: ${result}`;

@@ -3,21 +3,27 @@ body {
 }
 .header {
     background-color: blue;
-    height: 10vh;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     text-align: center;
 }
-.header h1 { 
+.header1 {
+    background-color: blue;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.header, .header1 h1 { 
     font-size: 3vw;
     color: rgb(147, 141, 230);
 }
-.header:hover {
+.header:hover, .header1:hover {
     background-color: rgb(68, 92, 172);
 }
-.header:hover h1 {
+.header:hover, .header1:hover h1 {
     color: rgb(210, 209, 241);
 }
 .calculator {
