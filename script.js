@@ -5,6 +5,10 @@ const subtractButton = document.getElementById('subtract');
 const multiplyButton = document.getElementById('multiply');
 const divideButton = document.getElementById('divide');
 const resultParagraph = document.getElementById('result');
+const word1 = document.getElementById('word1')
+const word2 = document.getElementById('word2')
+const concatenateButton = document.getElementById('concatenated')
+const showConcatenate = document.getElementById('string')
 
 function calculator(){
     addButton.addEventListener('click', () => {
@@ -39,4 +43,13 @@ function calculator(){
         }
       });
 }
+function concatenateStrings(){
+  concatenateButton.addEventListener('click', () => {
+    let word1Value = word1.value;
+    let word2Value = word2.value;
+    let result = word1Value + ' ' + word2Value;
+    string.textContent = `Result: ${result}`
+  })
+}
 calculator()
+concatenateStrings()
