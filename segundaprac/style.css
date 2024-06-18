@@ -14,13 +14,22 @@ header h1 {
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
-  background-color: #f6e9e9;
+  background-color: #edcccc;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: none;
 }
 #hygieneCont {
   background-color: rgb(244, 247, 223);
+}
+#petsCont {
+  background-color: rgb(218, 255, 204);
+}
+#clothesCont {
+  background-color: rgb(255, 255, 255);
+}
+#homeAppliancesCont {
+  background-color: rgb(204, 224, 255);
 }
 .contItems h2 {
   font-size: 24px;
