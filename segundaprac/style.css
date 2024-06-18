@@ -9,17 +9,17 @@ header {
     font-size: 36px;
     color: #333;
   }
-  
-  /* Section styles */
-  section {
+
+
+#fruitsCont {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
   }
-  
-  section h2 {
+  .fruitsCont h2 {
     font-size: 24px;
     margin-top: 0;
   }
@@ -45,7 +45,7 @@ header {
   }
   
   /* Purchase button styles */
-  #purchase-btn {
+  #purchase-btn, #buttonFruits {
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
@@ -53,7 +53,7 @@ header {
     border-radius: 5px;
     cursor: pointer;
   }
-  
+
   #purchase-btn:hover {
     background-color: #3e8e41;
   }
