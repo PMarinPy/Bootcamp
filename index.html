@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="header">
     <h1>Calculator</h1>
   </header>
   <section class="calculator">
     <section class="inputcont">
-        <input type="number" id="num1" placeholder="Number 1">
-        <input type="number" id="num2" placeholder="Number 2">
+      <input type="number" id="num1" placeholder="Number 1">
+      <input type="number" id="num2" placeholder="Number 2">
     </section>
     <div class="options">
-        <button id="add">+</button>
-        <button id="subtract">-</button>
-        <button id="multiply">*</button>
-        <button id="divide">/</button>
+      <button id="add">+</button>
+      <button id="subtract">-</button>
+      <button id="multiply">*</button>
+      <button id="divide">/</button>
     </div>
     <div class="result">
-        <p id="result"></p>
+      <p id="result"></p>
     </div>
-</section>
-<header class="header1">
-  <h1>Concatenate</h1>
-</header>
-
+  </section>
+  <header class="header1">
+    <h1>Concatenate</h1>
+  </header>
+  <section class="concatenate">
+    <section class="inputstr">
+      <input type="text" id="word1" placeholder="First word">
+      <input type="text" id="word2" placeholder="Second word">
+    </section>
+    <div id="concatenated"><button id="Conc">Concatenate</button>
+      <div class="string">
+        <p id="string"></p>
+      </div>
+    </div>
+  </section>
   <script src="script.js"></script>
 </body>
+
 </html>

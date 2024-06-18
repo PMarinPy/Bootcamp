@@ -15,7 +15,7 @@ body {
     text-align: center;
     background-color: #3b5998;
     padding: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 14px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
 
@@ -28,6 +28,7 @@ body {
     font-size: 3vw;
     color: #ffffff;
     margin: 0;
+
 }
 
 .header:hover, .header1:hover {
@@ -38,15 +39,18 @@ body {
     color: #f0f0f5;
 }
 
-.calculator {
+.calculator, .concatenate{
     margin-top: 15vh;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 14px 8px rgba(0, 0, 0, 0.1);
     display: inline-block;
+    margin-bottom: 20px;
 }
-
+.concatenate {
+    margin-top: 20px;
+}
 .options {
     margin-top: 20px;
 }
@@ -83,13 +87,49 @@ button:hover {
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+#string {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    color: #fff;
+    background-color: #3b5998;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#concatenated {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+#Conc {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    color: #fff;
+    background-color: #3b5998;
+    border-radius: 15px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 .inputcont {
     text-align: center;
     margin-top: 20px;
 }
 
-.inputcont input {
+.inputcont input, .concatenate input {
     width: 30%;
     height: 35px;
     margin: 10px;
