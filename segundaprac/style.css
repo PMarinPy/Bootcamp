@@ -1,0 +1,59 @@
+/* Header styles */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  /* Section styles */
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  /* Shopping list styles */
+  #shopping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #shopping-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #shopping-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #shopping-list input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Purchase button styles */
+  #purchase-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #purchase-btn:hover {
+    background-color: #3e8e41;
+  }
