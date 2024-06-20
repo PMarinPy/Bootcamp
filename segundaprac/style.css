@@ -21,7 +21,6 @@ header h1 {
   margin: 0;
 }
 
-/* Container styles */
 .contItems {
   border-radius: 10px;
   margin: 20px;
@@ -30,22 +29,7 @@ header h1 {
   border: 1px solid #ddd;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   display: none;
-}
-#fruitsCont {
-  background-color: rgb(255, 211, 211);
-}
-#hygieneCont {
-  background-color: rgb(240, 243, 215);
-}
-#petsCont {
-  background-color: rgb(218, 255, 204);
-}
-#clothesCont {
-  background-color: rgb(255, 255, 255);
-}
-#homeAppliancesCont {
-  background-color: rgb(204, 224, 255);
-}
+
 
 .contItems h2 {
   font-size: 24px;
@@ -74,11 +58,22 @@ header h1 {
   margin-right: 10px;
 }
 
-/* Botones */
-
-
-
-#purchase-btn,
+}
+#fruitsCont {
+  background-color: rgb(255, 211, 211);
+}
+#hygieneCont {
+  background-color: rgb(240, 243, 215);
+}
+#petsCont {
+  background-color: rgb(218, 255, 204);
+}
+#clothesCont {
+  background-color: rgb(255, 255, 255);
+}
+#homeAppliancesCont {
+  background-color: rgb(204, 224, 255);
+}
 .showItems {
   background: linear-gradient(90deg, #d14949, #ff6f6f);
   color: #fff;
@@ -91,12 +86,13 @@ header h1 {
 }
 
 #purchase-btn:hover,
+
 .showItems:hover {
   background: linear-gradient(90deg, #355fe7, #6f8ae2);
   border-color: #6f8ae2;
   color: #fff;
 }
-#buttonFruits {
+#buttonFruits  {
   background-color: rgb(255, 211, 211); /* Color de #fruitsCont */
   color: #333; /* Color de texto contrastante */
 }
@@ -132,4 +128,13 @@ header h1 {
 .showItems:hover {
   background: linear-gradient(90deg, #355fe7, #6f8ae2); /* Inversión del gradiente en hover */
   border-color: #6f8ae2; /* Color de borde en hover */
+}
+
+.fruits {
+  display: block;
+
+}
+
+.fruits .calor {
+  background-color: red;
 }
