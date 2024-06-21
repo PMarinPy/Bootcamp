@@ -1,42 +1,40 @@
-/* Header styles */
+/* Body and Header styles */
 body {
-  background-color: #ffefef;
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
+
 header {
-  background-color: #e1e7ff;
+  background: linear-gradient(90deg, #6f8ae2, #355fe7);
   padding: 20px;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 header h1 {
   font-size: 36px;
-  color: #333333;
+  color: #fff;
+  margin: 0;
 }
 
 .contItems {
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
-  background-color: #edcccc;
+  background-color: #fff;
   border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   display: none;
-}
-#hygieneCont {
-  background-color: rgb(244, 247, 223);
-}
-#petsCont {
-  background-color: rgb(218, 255, 204);
-}
-#clothesCont {
-  background-color: rgb(255, 255, 255);
-}
-#homeAppliancesCont {
-  background-color: rgb(204, 224, 255);
-}
+
+
 .contItems h2 {
   font-size: 24px;
   margin-top: 0;
+  color: #333;
 }
 
 .itemList {
@@ -48,6 +46,8 @@ header h1 {
 .itemList li {
   padding: 10px;
   border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
 }
 
 .itemList li:last-child {
@@ -58,18 +58,83 @@ header h1 {
   margin-right: 10px;
 }
 
-#purchase-btn,
+}
+#fruitsCont {
+  background-color: rgb(255, 211, 211);
+}
+#hygieneCont {
+  background-color: rgb(240, 243, 215);
+}
+#petsCont {
+  background-color: rgb(218, 255, 204);
+}
+#clothesCont {
+  background-color: rgb(255, 255, 255);
+}
+#homeAppliancesCont {
+  background-color: rgb(204, 224, 255);
+}
 .showItems {
-  background-color: #d14949;
+  background: linear-gradient(90deg, #d14949, #ff6f6f);
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin: 1px;
+  transition: background 0.3s ease;
+}
+
+#purchase-btn:hover,
+
+.showItems:hover {
+  background: linear-gradient(90deg, #355fe7, #6f8ae2);
+  border-color: #6f8ae2;
+  color: #fff;
+}
+#buttonFruits  {
+  background-color: rgb(255, 211, 211); /* Color de #fruitsCont */
+  color: #333; /* Color de texto contrastante */
+}
+
+#buttonHygiene {
+  background-color: rgb(240, 243, 215); /* Color de #hygieneCont */
+  color: #333; /* Color de texto contrastante */
+}
+
+#buttonPets {
+  background-color: rgb(218, 255, 204); /* Color de #petsCont */
+  color: #333; /* Color de texto contrastante */
+}
+
+#buttonClothes {
+  background-color: rgb(255, 255, 255); /* Color de #clothesCont */
+  color: #333; /* Color de texto contrastante */
+}
+
+#buttonHomeAppliances {
+  background-color: rgb(204, 224, 255); /* Color de #homeAppliancesCont */
+  color: #333; /* Color de texto contrastante */
+}
+
+/* Botón de compra y botón mostrar ítems */
+#purchase-btn,
+.showItems {
+  background: linear-gradient(90deg, #6f8ae2, #355fe7); /* Gradiente similar al de header */
+  color: #fff; /* Texto blanco para contraste */
 }
 
 #purchase-btn:hover,
 .showItems:hover {
-  background-color: #355fe7;
-  border-color: #6f8ae2;
-  }
+  background: linear-gradient(90deg, #355fe7, #6f8ae2); /* Inversión del gradiente en hover */
+  border-color: #6f8ae2; /* Color de borde en hover */
+}
+
+.fruits {
+  display: block;
+
+}
+
+.fruits .calor {
+  background-color: red;
+}
