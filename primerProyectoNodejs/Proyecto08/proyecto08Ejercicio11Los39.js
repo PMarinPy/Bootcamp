@@ -1,7 +1,7 @@
 /* Fecha de publicación: Junio 18
 Hora:
 Versión de su código: 1
-Autores. Ing Juan Pablo Marín Marín.
+Autores. Ing Los 39
 Nombre del lenguaje utilizado: JavaScript
 Versión del lenguaje utilizado: ECMAScript 6
 Presentado a: Doctor Ricardo Moreno Laverde
