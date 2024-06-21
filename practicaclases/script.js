@@ -1,3 +1,4 @@
+let prompt = require('prompt-sync')();
 class Character {
     constructor(lives, attack, defense, type){
         this.lives = lives;
@@ -21,6 +22,9 @@ let archer = new Character(80,25,10,"archer");
 let robot = new Character(130,20,5,"robot");
 let ogre = new Character(120,25,10,"ogre");
 let ninja = new Character(75,15,20,"ninja");
+function initialyze {
+    console.log("Wel")
+}
 magician.showState();
 warrior.makeAttack(magician,30)
 magician.showState();
