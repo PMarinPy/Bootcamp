@@ -1,0 +1,78 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Character Container Styles */
+  
+  .character-container {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  /* Character Image Styles */
+  
+  .character-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Character Information Styles */
+  
+  .character-info {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .character-info span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Power Type Colors */
+  
+  .magic {
+    background-color: #6495ed; /* blue */
+  }
+  
+  .archer {
+    background-color: #32cd32; /* green */
+  }
+  
+  .warrior {
+    background-color: #ffa07a; /* orange */
+  }
+  
+  .robot {
+    background-color: #666; /* gray */
+  }
+  
+  .ogre {
+    background-color: #8b4513; /* brown */
+  }
+  
+  .ninja {
+    background-color: #333; /* dark gray */
+  }
+  
+  /* Character Container Hover Effect */
+  
+  .character-container:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
